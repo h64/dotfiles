@@ -1,0 +1,11 @@
+[core]
+	editor = code --wait
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[user]
+	name = h64
+	email = 1981460+h64@users.noreply.github.com
+[includeIf "gitdir:~/archive/1213"]
+	path = ~/archive/1213/.enterprise.gitconfig
